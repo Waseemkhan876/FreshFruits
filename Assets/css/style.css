@@ -17,7 +17,7 @@ body {
 }
 
 .container {
-    border: 2px solid red;
+    /* border: 2px solid red; */
     margin: 0px;
 }
 
@@ -43,7 +43,7 @@ body {
     font-family: "Sedan SC", serif;
     font-weight: 400;
     font-style: normal;
-    border: 2px solid blue;
+    /* border: 2px solid blue; */
 
 }
 
