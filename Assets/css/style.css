@@ -17,32 +17,44 @@ body {
 }
 
 .container {
-    /* border: 2px solid red; */
-    height: fit-content;
+    border: 2px solid red;
+    margin: 0px;
 }
 
-.heading {
+/*inline block */
+.inline-block {
+    display: inline-block;
+    vertical-align: top;
+}
+.HeadBox{
+    /* text-align: left; */
+    display: inline-block;
+    width: 100%;
+    padding: 10px;
+}
+.heading-BrandName{
     font-size: 40px;
     color: coral;
     margin: 10px;
     padding: 10px;
     text-align: center;
-    width: 80%;
+    width: 84.23%;
     /* font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; */
     font-family: "Sedan SC", serif;
     font-weight: 400;
     font-style: normal;
+    border: 2px solid blue;
 
 }
 
-.heading h2 {
+.heading-BrandName h2 {
     border-bottom: dotted red;
     text-shadow: 2px 0px rgb(0, 0, 0, 0.7);
 }
 
 
 /* Color Of Brand Name */
-.heading h2 b {
+.heading-BrandName h2 b {
     color: rgba(249, 179, 4, 0.998);
     animation: Fruits-FF 5s linear;
 }
@@ -62,7 +74,7 @@ body {
 }
 
 #head-text {
-    font-size: 20px;
+    font-size: 22px;
     text-align: center;
     color: wheat;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
@@ -71,17 +83,18 @@ body {
 .logo-box img {
     margin: 10px;
     padding: 10px;
-    width: 97%;
+    width: 100%;
     height: 150px;
-    border-radius: 10px 40px 7px 40px;
-    box-shadow: 0px 10px rgb(0, 0, 0, 0.7);
-    border: 2px solid rgb(110, 104, 104);
+    border-radius:50%;
+    box-shadow: 8px 6px 9px rgba(137, 29, 238, 0.7);
+    border: 2px solid rgb(68, 225, 253);
     animation: logo 3s linear;
+    margin-top: 40px;
 }
 @keyframes logo {
     0%{
-        transform: rotate(360deg);
-        scale: 0.40;
+        transform: rotate(0deg);
+        /* scale: 0.40; */
     }
     25%{
         background-color: #06fc2f;
@@ -136,7 +149,7 @@ body {
     width: 0px;
     font-weight: 500;
     font-size: 16px;
-    transition: 0.8s;
+    /* transition: 0.8s; */
 
 }
 
@@ -148,11 +161,152 @@ body {
     animation: hoverShake 0.15s linear 3;
     background-color: rgb(248, 252, 246);
 }
+@media Screen and (max-width : 567px){
+    .container {
 
+    }
+    
+    /* all inline block */
+    .inline-block {
+        display: inline-block;
+        vertical-align: top;
+    }
+    .heading {
+        font-size: 40px;
+        color: coral;
+        margin: 10px;
+        padding: 10px;
+        text-align: center;
+        width: 80%;
+        /* font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; */
+        font-family: "Sedan SC", serif;
+        font-weight: 400;
+        font-style: normal;
+    
+    }
+    
+    .heading h2 {
+        border-bottom: dotted red;
+        text-shadow: 2px 0px rgb(0, 0, 0, 0.7);
+    }
+    
+    
+    /* Color Of Brand Name */
+    .heading h2 b {
+        color: rgba(249, 179, 4, 0.998);
+        animation: Fruits-FF 5s linear;
+    }
+    @keyframes Fruits-FF {
+        0%{
+        }
+        50%{
+            color: rgb(22, 7, 239);
+        }
+        75%{
+            color: #06ed2c;
+        }
+        100%{
+            color: red;
+        }
+        
+    }
+    
+    #head-text {
+        font-size: 20px;
+        text-align: center;
+        color: wheat;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    }
+    /* Logo Inner Img */
+    .logo-box img {
+        margin: 10px;
+        padding: 10px;
+        width: 97%;
+        height: 150px;
+        border-radius:50%;
+        box-shadow: 8px 6px 9px rgba(137, 29, 238, 0.7);
+        border: 2px solid rgb(68, 225, 253);
+        animation: logo 3s linear;
+        margin-top: 40px;
+    }
+    @keyframes logo {
+        0%{
+            transform: rotate(0deg);
+            /* scale: 0.40; */
+        }
+        25%{
+            background-color: #06fc2f;
+        }
+        50%{
+            background-color: #fcb206;
+        }
+        100%{
+            background-color: red;
+        }
+    }
+    
+    /* logo box heading */
+    .logo-box h1 {
+        font-size: 20px;
+        font-family: "Sedan SC", serif;
+        font-weight: 400;
+        font-style: normal;
+        color: rgb(244, 155, 217);
+        text-transform: uppercase;
+        text-decoration: rgb(206, 6, 46) underline;
+        text-align: center;
+        margin-left: 10px;
+    }
+    /* Search Bar Type On Animation And Hover*/
+    /* search bar*/
+    .search-container {
+        background: #f59d54;
+        height: 30px;
+        border-radius: 30px;
+        padding: 10px 20px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        cursor: pointer;
+        transition: 0.8s;
+        margin: 10px;
+        box-shadow: 4px 4px 6px 0 rgba(255, 255, 255, .3),
+            -4px -4px 6px 0 rgba(116, 125, 136, .2),
+            inset -4px -4px 6px 0 rgba(187, 186, 186, 0.2),
+            inset 4px 4px 6px 0 rgba(0, 0, 0, .2);
+    }
+    
+    .search-container:hover>.search-input {
+        width: 700px;
+    }
+    
+    .search-container .search-input {
+        background: transparent;
+        border: none;
+        outline: none;
+        width: 0px;
+        font-weight: 500;
+        font-size: 16px;
+        /* transition: 0.8s; */
+    
+    }
+    
+    .search-container .search-btn .fas {
+        color: #f03b04;
+    }
+    /* Animation Of Serch Bar */
+    .search-container:hover {
+        animation: hoverShake 0.15s linear 3;
+        background-color: rgb(248, 252, 246);
+    }
+    
+}
 /* Nav Bar Contain */
-.nav {
+.nav{
     margin: 10px;
     padding: 10px;
+    position: sticky;
+    top: 0px;
     text-align: center;
     color: aliceblue;
     text-decoration: dotted;
@@ -204,11 +358,7 @@ h4{
     width: 8%;
 }
 
-/* all inline block */
-#inline-block {
-    display: inline-block;
-    vertical-align: top;
-}
+
 
 /* All Box And Images */
 .box-all {
@@ -443,4 +593,11 @@ p{
     text-align: center;
     color: whitesmoke;
     margin: 10px;
+}
+.footer-col h4{
+    vertical-align: top;
+    margin-top: 0px;
+}
+.footer-col p{
+    text-align: left;
 }

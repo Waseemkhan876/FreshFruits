@@ -3,40 +3,67 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Order Now</title>
     <link rel="stylesheet" href="../Assets/css/order.css">
 </head>
 <body>
-    <h1>Order Page(order now)</h1>
-     <div>
-        <div>
+    <h1>Order Page _ Please Fill To Collect Yor Fruits</h1>
+    <h3>Order Now</h3>
+     <div class="container">
+        <form action="#" method="get">
+        <div class="boxes inline-block" >
         <label for="fullName">1.Full Name:</label>
-        <input type="text" placeholder="eg. pathan waseem rasheed khan" id="fullName">
+        <input type="text" id="fullName" placeholder="fullName" >
         </div>
 
-        <div>
+        <div class="boxes inline-block" >
         <label for="email">2.Email:</label>
-        <input type="email" placeholder="example123@gmail.com" id="email">
+        <input type="email"  id="email"  placeholder="example123@gmail.com" required />
         </div>
 
+        <div class="boxes inline-block" >
         <label for="place">3.What Is Your Address?</label>
-        <input type="place" placeholder="Address" id="place">
+        <input type="place" placeholder="Address" id="place" required />
         <input type="place" placeholder="Address line 2" id="place">
-        <input type="place" placeholder="City" id="place">
-        <input type="place" placeholder="Postal Code" id="place">
+        <input type="text" placeholder="City" id="place">
+        <input type="tel" placeholder="Postal Code" id="place">
+         </div>
 
 
 
+         <div class="boxes payment" >
+        <label for="radio" >4.Payment Method.*</label><br>
+        <input type="radio" name="radio" id="online" required />
+            <label for="Online">Online</label><br>
+            <input type="radio" name="radio" id="cod" required />
+            <label for="COD">COD(cash on delivery)</label><br>
+        </div>
+        <div class="boxes inline-block" >
+            <label for="upi">5.Quantity Of Product</label>
+            <select name="Quantity" id="Quantity">
+                <option value="1">Select</option>
+                <option value="1">1</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+                <option value="5">5</option>
+                <option value="6">6</option>
+                <option value="7">7</option>
+                <option value="8">8</option>
+                <option value="9">9</option>
+                <option value="10">10</option>
+            </select>
 
-        <label for="Payment">4.Payment Method.*</label>
-            <input type="radio" name="gender" id="online">
-            <label for="gender">Online</label><br>
-            <input type="radio" name="gender" id="cod">
-            <label for="gender">COD(cash on delivery)</label><br>
-
-            <input type="email" placeholder="enter upi id" id="email">
-            <input type="submit" id="btn" />
-
+        </div>
+        <div class="boxes inline-block" >
+            <label for="upi">6.Enter Your "UPI ID"*</label>
+            <input type="text" placeholder="enter upi id" id="text" required />
+        </div>
+            <input type="submit" id="btn"/>
+            <button id="back"><a href="/index.html">BACK TO HOME</a></button>
+        </form>
+        <p style="text-align: center; color: rgba(138, 139, 139, 0.364); background-color: rgba(255, 255, 255, 0); border: none; border-radius: unset;">Copyright &copy; 2024 - 2025 Fresh-Fruits. All right reserved</p>
      </div>
+
 </body>
 </html>

@@ -4,13 +4,18 @@
     box-sizing: border-box;
 }
 html,body{
-    background-color: rgb(17, 115, 82);
+    /* background-color: rgb(17, 115, 82); */
     text-align: center;
+     background-color: rgb(145, 135, 119);
+     /* background-image: url(../img/bg-0000); */
+     /* background-image: url(../img/bg-000000111111.webp); */
 
 }
 h1{
     background-color: #030100;
     margin: 10px;
+    position: sticky;
+    top: 0px;
 }
 h1 a{
     font-size: 26px;
@@ -175,3 +180,4 @@ button {
 #Description-paragraph{
     padding: 10px 10px;
 }
+
