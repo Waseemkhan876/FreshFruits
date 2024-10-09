@@ -362,11 +362,11 @@ h4{
 
 /* All Box And Images */
 .box-all {
-    margin: 11px;
+    margin: 30px;
     margin-bottom: 70px;
-    padding: 5px;
+    /* padding: 5px; */
     /* border: 2px solid rgb(13, 13, 13); */
-    width: 23%;
+    width: 20%;
     height: 340px;
     display: inline-block;
     vertical-align: top;
