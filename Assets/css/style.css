@@ -476,6 +476,7 @@ p{
     #img-width img{
        width: 100%;
        height: 500px;
+       border-radius: 10px;
     }
     .heading-BrandName{
         width: 100%;
@@ -496,16 +497,17 @@ p{
 .nav{
     background-color: rgba(230, 106, 4, 0.386);
     width: 100%;
+    margin: 0px;
 }
 
 .nav a {
     color: rgb(10, 148, 247);
-    margin: 10px;
-    font-size: 20px;
+    margin: 4px;
+    font-size: 13px;
 }
 .Catagories {
-    border: 2px none;
-    font-size: 17px;
+    border: 0px none;
+    font-size: 13px;
 }
 
 /* Only For Three Product Adjustment second rows*/
@@ -525,12 +527,12 @@ h4{
 
 /* All Box And Images */
 .box-all {
-    margin: 30px;
+    margin: 13px;
     margin-bottom: 70px;
-    /* padding: 5px; */
+    padding: 5px;
     /* border: 2px solid rgb(13, 13, 13); */
-    width: 13%;
-    height: 100px;
+    width: 44.99%;
+    height: 200px;
     display: inline-block;
     vertical-align: top;
     background-color: rgba(4, 244, 248, 0.355);
@@ -540,15 +542,13 @@ h4{
 
 .box-all p {
     text-align: center;
-    font-size: 25px;
+    font-size: 10px;
     margin: 10px;
 }
 .boxes-img {
-    margin: 10px;
-    padding: 5px;
-    border: 2px solid rgb(13, 13, 13);
-    width: 92%;
-    height: 20px;
+    margin: 0px;
+    width: 100%;
+    height: 140px;
     display: inline-block;
     vertical-align: top;
     background-color: rgb(245, 244, 243);
@@ -557,25 +557,24 @@ h4{
 }
 
 #del-price {
-    font-size: 20px;
+    font-size: 16px;
 }
 
 #offer {
-    font-size: 24px;
+    font-size: 16px;
     color: #f9c7b7;
     text-shadow: 1px 1px 10px rgb(0, 0, 0, 0.9);
 }
 
 #kg {
-    font-size: 17px;
+    font-size: 12px;
     margin: 4px;
     color: rgb(29, 29, 29);
 }
-
 button {
     margin: 0px;
     padding: 10px;
-    width: 50%;
+    width: 70%;
     border: 1px dashed red;
     background-color: rgb(228, 131, 3);
     border: 2px solid rgb(8, 8, 8);
@@ -586,48 +585,17 @@ button {
     cursor: pointer;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
-.button-color a{
-    color: #030100;
-    text-decoration: none;
-    font-weight: 900;
-}
-
-#button-hover:hover {
-    background-color: rgb(231, 220, 4);
-    font-size: 16px;
-    width: 90%;
-    border: 2px dashed black;
-}
-
-#price-color :hover {
-    color: #fe7403;
-    text-shadow: 1px 1px 0px rgb(0, 0, 0, 0.7);
-    cursor: pointer;
-    border-radius: 20px;
-    /* background-color: #f9c7b7; */
-}
 
 /* product-image size adjust */
 #fruit-product img {
     width: 100%;
-    height: 170px;
-}
-
-#fruit-product :hover {
-    letter-spacing: 6px;
-    background-color: #06fc38;
-    border-radius: 10px;
+    height: 100px;
 }
 
 /* fruit Heanding */
 #fruit-product h3 {
-    text-align: center;
-    font-weight: 800;
-    color: rgb(206, 6, 46);
-    background-color: rgb(250, 220, 181);
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    font-size: 23px;
-    letter-spacing: 3px;
+    font-size: 10px;
+    letter-spacing: 1px;
 }
 .btn-view-all a{
     text-decoration: none;
@@ -645,124 +613,24 @@ button {
     text-decoration: underline;
     height: 80px;
 }
-
-#button-view-all :hover {
-    color: #06ed2c;
-    background-color: rgb(80, 79, 79);
-    letter-spacing: 9px;
-    /* font-size: 20px; */
-}
 .Description {
     color: rgb(59, 59, 52);
     text-align: center;
     font-family: monospace;
     font-weight: 900;
     background-color: burlywood;
-    width: 97%;
-    margin-left: 20px;
-    border-radius: 5px;
+    width: 100%;
+    margin-left: 0px;
+    border-radius: 0px;
     margin-bottom: 30px;
 }
 
 #Description-paragraph {
     text-align: center;
     color: beige;
-    width: 80%;
-    margin-left: 130px;
+    width: 100%;
+    margin-left: 0px;
     margin-top: 10px;
-}
-
-/* Footer Css */
-@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700&display=swap');
-.footer {
-  top: 50%;
-  left: 50%;
-  background: #1212122e;
-  /* border: 1px solid red; */
-}
-.footer .footer-row {
-  display: flex;
-  justify-content: space-between;
-  padding: 60px;
-}
-.footer-row .footer-col h4 {
-  color: #f67104;
-  font-size: 1.2rem;
-  font-weight: 400;
-}
-.footer-col .links {
-  margin-top: 20px;
-}
-.footer-col .links li {
-  list-style: none;
-  margin-bottom: 10px;
-}
-.footer-col .links li a {
-  text-decoration: none;
-  color: #bfbfbf;
-}
-.footer-col .links li a:hover {
-  color: #fda24d;
-}
-.footer-col p {
-  margin: 20px 0;
-  color: #bfbfbf;
-  max-width: 300px;
-}
-.footer-col form {
-  display: flex;
-  gap: 5px;
-}
-.footer-col input {
-  height: 40px;
-  border-radius: 6px;
-  background: none;
-  width: 100%;
-  outline: none;
-  border: 1px solid #7489C6 ;
-  caret-color: #fff;
-  color: #fff;
-  padding-left: 10px;
-  margin-top: 20px;
-}
-.footer-col input::placeholder {
-  color: #ccc;
-}
- .footer-col form button {
-  background: #fff;
-  outline: none;
-  border: none;
-  padding: 10px 15px;
-  border-radius: 6px;
-  cursor: pointer;
-  font-weight: 500;
-}
-.footer-col form button:hover {
-  background: #029994;
-}
-.footer-col .icons {
-  display: flex;
-  margin-top: 30px;
-  gap: 30px;
-  cursor: pointer;
-}
-.footer-col .icons i {
-  color: #afb6c7;
-}
-.footer-col .icons i:hover  {
-  color: #13ee04;
-}
-p{
-    text-align: center;
-    color: whitesmoke;
-    margin: 10px;
-}
-.footer-col h4{
-    vertical-align: top;
-    margin-top: 0px;
-}
-.footer-col p{
-    text-align: left;
 }
 }
 /* Respinsive end Header */
