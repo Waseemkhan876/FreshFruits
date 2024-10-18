@@ -66,3 +66,37 @@ img{
     border-radius: 60px 2px;
     box-shadow: 7px 1px 5px rgb(0,0,0,0.7);
 }
+@media all and ( max-width : 567px){
+
+    h1 a{
+        font-size: 16px;
+    }
+    .home{
+        text-align: center;
+        display: inline-block;
+        vertical-align: top;
+        width: 100%;
+        background-color: #fe0385;
+    }
+    .home a{
+        color: rgb(7, 6, 6);
+        width: 100%;
+        /* background-color: aquamarine; */
+        border-radius: 20px;
+        word-spacing: 9px;
+        text-align: center;
+        font-size: 23px;
+        font-weight: 900;
+    }
+    img{
+        width: 40.24%;
+        margin: 17px;
+        padding: 0px;
+        height: 200px;
+        display: inline-block;
+        text-align: center;
+        border-radius: 7px;
+        box-shadow: 7px 1px 5px rgb(0,0,0,0.7);
+    }
+    
+}

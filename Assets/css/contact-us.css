@@ -12,14 +12,15 @@ html,body{
      /* background-image: url(../img/bg-000000111111.webp); */
 }
 .Main{
-    width: 95%;
-    height: 379px;
-    margin-left: 10px;
-    padding: 30px 20px;
+    width: 98.30%;
+    height: 500px;
+    margin: 10px;
     text-align: center;
     font-size: 20px;
+    display: inline-block;
+    border: 2px solid red;
     font-weight: 700;
-    color: rgb(237, 214, 180);
+    color: rgb(200, 123, 7);
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 input{
@@ -27,7 +28,8 @@ input{
     background-color: rgb(251, 208, 151);
     margin: 5px;
     padding: 7px;
-    box-shadow: 1px 1px 4px 4px rgba(250, 67, 67, 0.888);
+    box-shadow: 1px 1px 4px 3px rgba(13, 13, 13, 0.888);
+    border-radius: 20px;
 }
 h1{
     background-color: #030100;
@@ -69,30 +71,41 @@ a{
     font-size: 30px;
     color: aqua;
 }
+#contact-us-1{
+    text-align: center;
+    color: rgb(4, 227, 145);
+    margin-top: 30px;
+    font-size: 26px;
+    background-color: rgb(74, 72, 72);
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
 #contact-us{
     text-align: center;
     color: whitesmoke;
+    margin-top: 30px;
+    
 }
 #l1{
-    width: 69%;
+    width: 40%;
     /* margin-left: 30px; */
 }
 #l2{
-    width: 26%;
+    width:40%;
    
 }
 #l3{
-    width: 30%;
+    width: 40%;
 }
 #l4{
-    width: 90%;
+    width: 80%;
     height: 100px;
     background-color: rgb(144, 146, 145);
     box-shadow: 1px 1px 4px 4px rgba(233, 223, 249, 0.989);
+    margin-top: 20px;
 }
 textarea{
-    margin: 8px;
-    padding: 10px;
+    margin: 0px;
+    padding: 0px;
 }
 #typeQ{
     margin: 0px;
@@ -113,3 +126,108 @@ textarea{
 
 }
 
+/* Responsive Website */
+@media all and (max-width : 567px) {
+    .Main{
+        width: 100%;
+        height: 379px;
+        margin-left: 0px;
+        padding: 0px;
+        text-align: center;
+        font-size: 20px;
+        font-weight: 700;
+        color: rgb(237, 214, 180);
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    }
+    input{
+        border: 2px solid black;
+        background-color: rgb(251, 208, 151);
+        margin: 5px;
+        padding: 7px;
+        box-shadow: 1px 1px 4px 4px rgba(250, 67, 67, 0.888);
+        width: 100%;
+    }
+    h1{
+        background-color: #030100;
+        margin: 0px;
+        position: sticky;
+        top: 0px;
+        text-align: center;
+        width: 100%;
+    }
+    h1 a{
+        font-size: 14px;
+        color: #fe0385;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        word-spacing: 20px;
+        border-radius: 0px;
+        width: 100%;
+        padding: 0px;
+    }
+    a{
+        margin: 0px;
+        font-size: 30px;
+        color: aqua;
+        width: 100%;
+    }
+    h2{
+        background-color: #f9c7b7;
+        color: rgb(20, 6, 225);
+        margin: 10px ;
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        font-weight: 900;
+        text-align: center;
+    }
+    .tag{
+        text-align: center;
+        width: 97.30%;
+        border: 3px solid rgb(71, 74, 73);
+        margin: 8px;
+        padding: 10px 5px auto;
+        margin-left: 14px; 
+        height: 40px;
+        word-spacing: 0px;
+        color: rgb(244, 251, 255);
+    }
+    #contact-us{
+        text-align: center;
+        color: whitesmoke;
+    }
+    #l1{
+        width: 90%;
+        /* margin-left: 30px; */
+    }
+    #l2{
+        width: 90%;
+       
+    }
+    #l3{
+        width: 90%;
+    }
+    #l4{
+        width: 90%;
+        height: 100px;
+        background-color: rgb(144, 146, 145);
+        box-shadow: 1px 1px 4px 4px rgba(233, 223, 249, 0.989);
+    }
+    #typeQ{
+        margin: 0px;
+        text-align: center;
+        font-size: 30px;
+        color: rgb(174, 142, 111);
+        margin-bottom: 10px;
+    }
+    #btn{
+        color: rgb(164, 152, 152);
+        font-family: 'Times New Roman', Times, serif;
+        font-weight: 700;
+        background-color: rgb(26, 26, 26);
+        width: 40%;
+        border-radius: 12px 2px 12px;
+        font-size: 15px;
+        box-shadow: 1px 1px 4px 4px rgb(879, 98, 319);
+        cursor: pointer;
+        text-align: center;
+    
+    }
+}
