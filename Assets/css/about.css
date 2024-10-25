@@ -63,7 +63,7 @@ img{
     padding: 10px 5px;
     height: 300px;
     display: inline-block;
-    border-radius: 60px 2px;
+    border-radius: 10px 2px;
     box-shadow: 7px 1px 5px rgb(0,0,0,0.7);
 }
 
