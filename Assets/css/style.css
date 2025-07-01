@@ -10,8 +10,8 @@
 
 html,
 body {
-    /* background-color: rgb(145, 135, 119); */
-    background-image: url(../img/bg-0000);
+    background-color: rgb(98, 98, 100);
+    /* background-image: url(../img/bg-0000); */
     /* background-image: url(../img/bg-000000111111.webp); */
     background-position: repeat;
 }
@@ -19,6 +19,7 @@ body {
 .container {
     /* border: 2px solid red; */
     margin: 0px;
+    width: 100%;
 }
 
 /*inline block */
@@ -29,8 +30,8 @@ body {
 .HeadBox{
     /* text-align: left; */
     display: inline-block;
-    width: 100%;
-    padding: 10px;
+    padding: 0px;
+    margin: 25px;
 }
 .heading-BrandName{
     font-size: 40px;
@@ -81,7 +82,7 @@ body {
 }
 /* Logo Inner Img */
 .logo-box img {
-    margin: 10px;
+    margin: 5px;
     padding: 10px;
     width: 100%;
     height: 150px;
@@ -118,6 +119,7 @@ body {
     text-decoration: rgb(206, 6, 46) underline;
     text-align: center;
     margin-left: 10px;
+    width: 100%;
 }
 /* Search Bar Type On Animation And Hover*/
 /* search bar*/
@@ -163,7 +165,7 @@ body {
 }
 /* Nav Bar Contain */
 .nav{
-    margin: 10px;
+    margin-bottom: 10px;
     padding: 10px;
     position: sticky;
     top: 0px;
@@ -188,6 +190,7 @@ body {
     color: rgb(247, 176, 10);
     margin: 50px;
     font-size: 25px;
+    text-decoration: none;
 }
 .nav a:hover {
     color: rgb(3, 253, 57);
@@ -196,13 +199,14 @@ body {
     text-align: center;
     color: #5af64c;
     text-decoration: rgb(90, 91, 89) dashed;
-    border: 1px dashed red;
-    margin: 20px;
+    /* border: 1px dashed red; */
+    margin: 0px;
     border-radius: 1px;
     font-family: "Mystery Quest", system-ui;
     font-weight: 400;
     font-style: normal;
     word-spacing: 8px;
+    width: 100%;
 }
 
 /* Only For Three Product Adjustment second rows*/
@@ -222,7 +226,7 @@ h4{
 
 /* All Box And Images */
 .box-all {
-    margin: 30px;
+    margin: 29.70px;
     margin-bottom: 70px;
     /* padding: 5px; */
     /* border: 2px solid rgb(13, 13, 13); */
@@ -374,7 +378,7 @@ button {
   top: 50%;
   left: 50%;
   background: #1212122e;
-  /* border: 1px solid red; */
+  background-color: #132427;
 }
 .footer .footer-row {
   display: flex;
@@ -472,6 +476,13 @@ p{
 
 /* Start Responsive Header*/
 @media all and (max-width : 567px){
+    
+    html,body{
+    background-color: rgb(83, 75, 63);
+    /* background-image: url(../img/bg-0000); */
+    /* background-image: url(../img/bg-img.jpg); */
+    background-position: repeat;
+    }
     #img-width img{
        width: 100%;
        height: 500px;
@@ -663,7 +674,7 @@ button {
 .footer {
   top: 0%;
   left: 0%;
-  background: #1212122e;
+  background-color: #192728fa;
   /* border: 1px solid red; */
   font-size: 20px;
   width: 100%;
